@@ -1,0 +1,32 @@
+{
+  "name": "shree-ji-solar-experts",
+  "version": "1.0.0",
+  "description": "Production website and management system for Shree Ji Solar Experts",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "node server/db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^8.0.2"
+  },
+  "keywords": [
+    "solar",
+    "solar-energy",
+    "shree-ji-solar",
+    "renewable-energy",
+    "solar-cleaning",
+    "solar-plans"
+  ],
+  "author": "Shree Ji Solar Experts",
+  "license": "ISC"
+}
